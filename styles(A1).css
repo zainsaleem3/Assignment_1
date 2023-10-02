@@ -47,8 +47,8 @@ nav ul li a {
 
 /* Style for the profile image */
 .about img {
-    width: 20px; /* Adjust the width as needed */
-    height: 20px; /* Maintain aspect ratio */
+    max-width: 100%; /* Allow the image to scale down if necessary */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .section h1 {
