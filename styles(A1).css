@@ -94,34 +94,93 @@ footer a {
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
 
-    /* Stack form elements vertically */
-    form label,
-    form input,
-    form textarea,
-    form button {
-        width: 100%;
-        margin-bottom: 10px; /* Add spacing between elements */
-    }
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
-    /* Center-align text in form elements */
-    form label,
-    form input,
-    form textarea {
-        text-align: center;
-    }
+/* Apply a background color to the entire body */
+body {
+    background-color: #b4651b;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
-    /* Increase font size for better readability */
-    form label {
-        font-size: 16px;
-    }
-    form input,
-    form textarea {
-        font-size: 14px;
-    }
+/* Style the navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
 
-    /* Increase button size for easier tapping on touchscreens */
-    form button {
-        font-size: 18px;
-        padding: 10px;
-    }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Style all sections (Home, About Me, Projects, and Contact Me) */
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style the additional white boxes */
+.extra-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style for stacking form elements */
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between elements */
+}
+
+.extra-box h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
