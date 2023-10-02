@@ -68,6 +68,7 @@ form button {
     display: block;
     width: auto;
     margin-bottom: 10px; /* Add spacing between elements */
+    text-align: center;
 }
 
 .extra-box h2 {
