@@ -121,7 +121,7 @@ footer a {
 
     /* Styles for About Me Page */
     .about img {
-        width: 100%; /* Adjust image width to fit smaller screens */
+        width: 90%; /* Adjust image width to fit smaller screens */
     }
     .about h2 {
         font-size: 18px;
