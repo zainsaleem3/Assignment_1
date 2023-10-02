@@ -60,6 +60,16 @@ nav ul li a {
     text-align: center;
 }
 
+/* Style for stacking form elements */
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between elements */
+}
+
 .extra-box h2 {
     color: #333;
     font-size: 20px;
