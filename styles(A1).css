@@ -75,6 +75,26 @@ form button {
     margin-bottom: 10px; /* Add spacing between elements */
 }
 
+.extra-box h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Media queries for responsive design */
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
