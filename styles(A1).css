@@ -115,13 +115,16 @@ footer a {
     .home h1 {
         font-size: 18px;
     }
+    .home img {
+        width:auto;
+    }
     .home p {
         font-size: 14px;
     }
 
     /* Styles for About Me Page */
     .about img {
-        width: 70%; /* Adjust image width to fit smaller screens */
+        width: auto; /* Adjust image width to fit smaller screens */
     }
     .about h2 {
         font-size: 18px;
