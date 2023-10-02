@@ -92,6 +92,7 @@ footer a {
 /* Media queries for responsive design */
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
+}
     /* Adjust styles for smaller screens here */
 
 /* Reset some default browser styles */
