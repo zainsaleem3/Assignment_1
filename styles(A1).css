@@ -45,12 +45,6 @@ nav ul li a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the profile image */
-.about img {
-    max-width: 100%; /* Allow the image to scale down if necessary */
-    height: auto; /* Maintain aspect ratio */
-}
-
 .section h1 {
     color: #333;
     font-size: 24px;
