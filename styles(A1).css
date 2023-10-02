@@ -90,9 +90,38 @@ footer a {
 }
 
 /* Media queries for responsive design */
+/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     /* Adjust styles for smaller screens here */
-    nav ul li {
-        margin-right: 10px;
+
+    /* Stack form elements vertically */
+    form label,
+    form input,
+    form textarea,
+    form button {
+        width: 100%;
+        margin-bottom: 10px; /* Add spacing between elements */
+    }
+
+    /* Center-align text in form elements */
+    form label,
+    form input,
+    form textarea {
+        text-align: center;
+    }
+
+    /* Increase font size for better readability */
+    form label {
+        font-size: 16px;
+    }
+    form input,
+    form textarea {
+        font-size: 14px;
+    }
+
+    /* Increase button size for easier tapping on touchscreens */
+    form button {
+        font-size: 18px;
+        padding: 10px;
     }
 }
